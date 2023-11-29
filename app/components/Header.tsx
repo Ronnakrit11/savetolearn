@@ -106,7 +106,7 @@ const Header: FC<Props> = ({ activeItem, setOpen, route, open, setRoute }) => {
                         alt=""
                       />
                       <span className="text-white"> 
-                      Learning-Destiny
+                      Save2learn
                       </span>
                     </Link>
                   </div>

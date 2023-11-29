@@ -11,7 +11,7 @@ export const metadata = {
     description: 'เรียนออนไลน์ e-learning ebook โหราศาสตร์ ดูดวง ฮวงจุ้ย และจิตวิทยา สำหรับการพัฒนาชีวิตให้ดีขึ้น',
     url: 'https://www.learning-destiny.com',
     
-    siteName: 'Learning-destiny',
+    siteName: 'savetolearn',
     images: [
       {
         url: 'https://png.pngtree.com/png-clipart/20210803/ourlarge/pngtree-abstract-colorful-astrology-starry-background-png-image_3768710.jpg',
