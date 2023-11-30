@@ -30,7 +30,7 @@ const WhyLearnCourse = () => {
                 </div>
                 <div className='flex flex-col md:flex-row gap-8 justify-center items-center text-black' data-aos="fade-down" data-aos-delay="1000" >
                     {
-                        item.map(ele => <div key={ele.title} className="max-w-[376px] backdrop-blur border dark:border-[#ffffff1d] border-[#00000015] dark:shadow-[bg-slate-700] shadow-sm dark:shadow-inner h-[330px] bg-[var(--secondary-color)] rounded-xl text-white p-10 hover:bg-white hover:text-black">
+                        item.map(ele => <div key={ele.title} className="max-w-[376px] backdrop-blur border dark:border-[#ffffff1d] border-[#00000015] dark:shadow-[bg-slate-700] shadow-sm dark:shadow-inner h-[330px] bg-[var(--secondary-color)] rounded-xl text-[#2a2a32] p-10 hover:bg-white hover:text-black">
                             <div className="flex mt-3 items-center justify-center flex-col gap-4">
                                 <div>
                                     <Image

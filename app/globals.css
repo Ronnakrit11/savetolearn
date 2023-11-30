@@ -7,9 +7,10 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
   
-  --primary-color: #2ECC71;
-  --secondary-color: #BB8FCE;
-  --secondary-color-hover: #9f50c1;
+  --primary-color: #4eb972;
+  --primary-color-hover: #2f9a53;
+  --secondary-color: #d1f2d9;
+  --secondary-color-hover: #bbd4c2;
   --tertiary-color: #c7d8e4;
 }
 
@@ -32,7 +33,7 @@
 
 
 .navbar-color {
-  background: linear-gradient(90deg, rgb(187 143 206) 20%, rgba(217,128,255,1) 63%);
+  background: white;
 }
 
 

@@ -18,7 +18,7 @@ const Ebooks = (props: Props) => {
     <div className="background-home-ebook">
       <div className={`w-[90%] 800px:w-[80%] m-auto pt-10`}>
         <h1  data-aos="fade-down"  className="text-center font-Poppins text-[25px] leading-[35px] sm:text-3xl lg:text-4xl text-white 800px:!leading-[60px] font-[700] tracking-tight">
-        And We Have Powerful <span className="text-[var(--secondary-color)] text-[32px]">Ebook</span>{" "}
+        And We Have Powerful <span className="text-black text-[32px]">Ebook</span>{" "}
         </h1>
         <br />
         <br />

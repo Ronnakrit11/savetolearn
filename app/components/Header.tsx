@@ -85,7 +85,7 @@ const Header: FC<Props> = ({ activeItem, setOpen, route, open, setRoute }) => {
         isLoading ? (
           <Loader />
         ) : ( */}
-          <div className="w-full relative dark:bg-[#140342]">
+          <div className="w-full relative">
             <div
               className={`${active
                 ? "navbar-color fixed top-0 left-0 w-full h-[80px] z-[80] border-b shadow-xl transition duration-500"
@@ -105,7 +105,7 @@ const Header: FC<Props> = ({ activeItem, setOpen, route, open, setRoute }) => {
                         height={100}
                         alt=""
                       />
-                      <span className="text-white"> 
+                      <span className="text-black"> 
                       Save2learn
                       </span>
                     </Link>
