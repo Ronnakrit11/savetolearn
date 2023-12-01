@@ -67,16 +67,11 @@ const Footer = (props: Props) => {
             <h3 className="text-[20px] font-[600] text-black dark:text-white">Social Links</h3>
             <ul className="space-y-4">
               <li>
-                <Link
-                  href="https://www.youtube.com/@Ldtn168"
-                  className="text-base text-black dark:text-gray-300 dark:hover:text-white"
-                >
-                  Youtube
-                </Link>
+              
               </li>
               <li>
                 <Link
-                  href="https://www.facebook.com/ldtn168"
+                  href="https://www.facebook.com/"
                   className="text-base text-black dark:text-gray-300 dark:hover:text-white"
                 >
                   Facebook
@@ -88,15 +83,15 @@ const Footer = (props: Props) => {
           <div>
             <h3 className="text-[20px] font-[600] text-black dark:text-white pb-3">Contact Info</h3>
             <p className="text-base text-black dark:text-gray-300 dark:hover:text-white pb-2">
-            Tel. : 094-890-1890
+            Tel. : 065-445-4142
             </p>
            
             <p className="text-base text-black dark:text-gray-300 dark:hover:text-white pb-2">
-            Email : learningdestiny168@gmail.com
+            Email : SAVE2PLAYS@GMAIL.COM
             </p>
          
             <p className="text-base text-black dark:text-gray-300 dark:hover:text-white  pb-2">
-            Line OA : @822zzpqi
+            Line OA : @SAVe2PLAY
             </p>
             <div className='bg-white max-w-[160px] p-2'>
               <Image

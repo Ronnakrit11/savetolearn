@@ -59,62 +59,7 @@ const reviews = [
         comment:
             "หลังจากที่ได้รับคําแนะนําจากอาจารย์ในเรื่องของการตกแต่งบ้าน ทําให้บ้านน่าอยู่ และครอบครัวอบอุ่นมากขึ้น",
     },
-    {
-        name: "ขวัญฤดี โพธาราม",
-        // avatar: "https://randomuser.me/api/portraits/women/4.jpg",
-        profession: "พนักงานบริษัท ",
-        comment:
-            "อาจารย์อธิบายเรื่องฮวงจุ้ยได้ชัดเจนมาก เข้าใจง่ายดี ไม่ซับซ้อนเหมือนที่อื่นๆ ชอบมากค่ะ ถ้ามีโอกาสจะกลับมาเรียนอีกแน่นอน",
-    },
-    {
-        name: "พีรวิชญ์ เดชะคําภู",
-        // avatar: "https://randomuser.me/api/portraits/women/4.jpg",
-        profession: "ธุรกิจออนไลน์   ",
-        comment:
-            "หลังจากที่ได้รับคําปรึกษาทําให้กล้าที่จะตัดสินใจลาออกจากงาน แล้วหันมาทําธุรกิจออนไลน์เอง รายได้ดีขึ้นมาก ขอบคุณอาจารย์จริงๆ",
-    },
-    {
-        name: "ณัฐนนท์ ศรีบุญเรือง",
-        // avatar: "https://randomuser.me/api/portraits/women/4.jpg",
-        profession: "พนักงานบริษัท   ",
-        comment:
-            "หลังจากที่เข้ารับการบรรยาย ได้อ่านหนังสือของอาจารย์แล้ว รู้สึกว่าชีวิตมีสีสัน และมีแรงบันดาลใจในการทํางานมากขึ้นเลยทีเดียว",
-    },
-    {
-        name: "Paul Wilson",
-        // avatar: "https://randomuser.me/api/portraits/women/4.jpg",
-        profession: "American Businessman   ",
-        comment:
-            "After taking online course from Master Essras, I gain very useful knowledge about Feng Shui which I can apply to improve my business. Thank you so much!",
-    },
-    {
-        name: " Sarah Lim",
-        // avatar: "https://randomuser.me/api/portraits/women/4.jpg",
-        profession: "Singaporean Officer    ",
-        comment:
-            "Master Essras explains astrology concepts very clearly and easy to understand. Now I understand more about zodiac compatibility which helps my relationship",
-    },
-    {
-        name: "Toshio Hayashi",
-        // avatar: "https://randomuser.me/api/portraits/women/4.jpg",
-        profession: " Japanese Officer   ",
-        comment:
-            "I  was impressed with Master Essras's lecture on TV program. He presents the content lively and entertaining way. I became his fan",
-    },
-    {
-        name: "Ayesha Begum",
-        // avatar: "https://randomuser.me/api/portraits/women/4.jpg",
-        profession: "Indian Housewife   ",
-        comment:
-            "Online consultation with Master Essras gives me new perspective to approach problems and set clear goals. This helps reduce my stress. Thank you, Ajarn! ",
-    },
-    {
-        name: "William Ng",
-        // avatar: "https://randomuser.me/api/portraits/women/4.jpg",
-        profession: "Chinese Entrepreneur   ",
-        comment:
-            "I love Master Essras's book about fortune telling. Very accurate and helpful prediction which gives me more confidence to start new business last year. I appreciate his knowledge.",
-    },
+   
     
 ];
 
