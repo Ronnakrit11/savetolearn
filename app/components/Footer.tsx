@@ -13,12 +13,12 @@ const Footer = (props: Props) => {
       <div className="w-[95%] 800px:w-full 800px:max-w-[85%] mx-auto px-2 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-4">
           <div className="space-y-3">
-            <h3 className="text-[20px] font-[600] text-black dark:text-white">About</h3>
+            <h3 className="text-[20px] font-[600] text-black ">About</h3>
             <ul className="space-y-4">
               <li>
                 <Link
                   href="/about"
-                  className="text-base text-black dark:text-gray-300 dark:hover:text-white"
+                  className="text-base text-black"
                 >
                   Our Story
                 </Link>
@@ -26,7 +26,7 @@ const Footer = (props: Props) => {
               <li>
                 <Link
                   href="/policy"
-                  className="text-base text-black dark:text-gray-300 dark:hover:text-white"
+                  className="text-base text-black"
                 >
                   Privacy Policy
                 </Link>
@@ -34,7 +34,7 @@ const Footer = (props: Props) => {
               <li>
                 <Link
                   href="/faq"
-                  className="text-base text-black dark:text-gray-300 dark:hover:text-white"
+                  className="text-base text-black"
                 >
                   FAQ
                 </Link>
@@ -42,12 +42,12 @@ const Footer = (props: Props) => {
             </ul>
           </div>
           <div className="space-y-3">
-            <h3 className="text-[20px] font-[600] text-black dark:text-white">Quick Links</h3>
+            <h3 className="text-[20px] font-[600] text-black">Quick Links</h3>
             <ul className="space-y-4">
               <li>
                 <Link
                   href="/courses"
-                  className="text-base text-black dark:text-gray-300 dark:hover:text-white"
+                  className="text-base text-black"
                 >
                   Courses
                 </Link>
@@ -55,7 +55,7 @@ const Footer = (props: Props) => {
               <li>
                 <Link
                   href="/profile"
-                  className="text-base text-black dark:text-gray-300 dark:hover:text-white"
+                  className="text-base text-black"
                 >
                   My Account
                 </Link>
@@ -64,7 +64,7 @@ const Footer = (props: Props) => {
             </ul>
           </div>
           <div className="space-y-3">
-            <h3 className="text-[20px] font-[600] text-black dark:text-white">Social Links</h3>
+            <h3 className="text-[20px] font-[600] text-black">Social Links</h3>
             <ul className="space-y-4">
               <li>
               
@@ -72,7 +72,7 @@ const Footer = (props: Props) => {
               <li>
                 <Link
                   href="https://www.facebook.com/"
-                  className="text-base text-black dark:text-gray-300 dark:hover:text-white"
+                  className="text-base text-black"
                 >
                   Facebook
                 </Link>
@@ -81,16 +81,16 @@ const Footer = (props: Props) => {
             </ul>
           </div>
           <div>
-            <h3 className="text-[20px] font-[600] text-black dark:text-white pb-3">Contact Info</h3>
-            <p className="text-base text-black dark:text-gray-300 dark:hover:text-white pb-2">
+            <h3 className="text-[20px] font-[600] text-black pb-3">Contact Info</h3>
+            <p className="text-base text-black pb-2">
             Tel. : 065-445-4142
             </p>
            
-            <p className="text-base text-black dark:text-gray-300 dark:hover:text-white pb-2">
+            <p className="text-base text-black pb-2">
             Email : SAVE2PLAYS@GMAIL.COM
             </p>
          
-            <p className="text-base text-black dark:text-gray-300 dark:hover:text-white  pb-2">
+            <p className="text-base text-black  pb-2">
             Line OA : @SAVe2PLAY
             </p>
             <div className='bg-white max-w-[160px] p-2'>
@@ -104,7 +104,7 @@ const Footer = (props: Props) => {
           </div>
         </div>
         <br />
-        <p className="text-center text-black dark:text-white">
+        <p className="text-center text-black">
           Copyright © 2023 ELearning | All Rights Reserved
         </p>
       </div>
