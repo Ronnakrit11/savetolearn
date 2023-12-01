@@ -12,7 +12,7 @@ const Policy = (props: Props) => {
         }
       >
         <h1 className={`${styles.title} !text-start pt-2`}>
-          นโยบายความเป็นส่วนตัวสําหรับเว็บไซต์ Learning-destiny.com
+          นโยบายความเป็นส่วนตัวสําหรับเว็บไซต์ 
         </h1>
         <ul style={{ listStyle: "unset", marginLeft: "15px" }}>
           <p className="py-2 ml-[-15px] text-[17px] font-Poppins leading-8 whitespace-pre-line">
@@ -25,7 +25,7 @@ const Policy = (props: Props) => {
             เราจะไม่เปิดเผยหรือขายข้อมูลส่วนบุคคลของท่านให้กับบุคคลที่สาม
             โดยไม่ได้รับความยินยอมจากท่านก่อน
             รวมถึงจะไม่ใช้ข้อมูลดังกล่าวเพื่อวัตถุประสงค์อื่น
-            นอกเหนือจากการให้บริการแก่สมาชิก
+           
           </p>
           <br />
           <p className="py-2 ml-[-15px] text-[17px] font-Poppins leading-8 whitespace-pre-line">
@@ -38,8 +38,8 @@ const Policy = (props: Props) => {
           <p className="py-2 ml-[-15px] text-[17px] font-Poppins leading-8 whitespace-pre-line">
             หากท่านพบเห็นการกระทําที่ไม่เหมาะสมต่อข้อมูลส่วนบุคคล
             กรุณาแจ้งให้เราทราบโดยด่วน
-            เพื่อจะได้ดําเนินการแก้ไขปัญหาได้อย่างทันท่วงที ทาง
-            Learning-destiny.com
+            เพื่อจะได้ดําเนินการแก้ไขปัญหาได้อย่างทันท่วงที ทางเรา
+            
             หวังเป็นอย่างยิ่งว่าจะได้รับความไว้วางใจจากท่านในฐานะสมาชิก
             และหวังเป็นอย่างยิ่งว่าจะให้บริการแก่ท่านได้อย่างดีที่สุด
           </p>

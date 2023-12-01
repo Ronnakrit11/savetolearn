@@ -4,117 +4,35 @@ import Image from 'next/image';
 
 const reviews = [
     {
-        name: " มาลัย ธนานันท์",
+        name: " คุณใหม่  ",
         // avatar: "https://randomuser.me/api/portraits/men/1.jpg",
-        profession: "ธุรกิจส่วนตัว",
+        profession: "Students",
         comment:
-            " หลังจากได้เรียนจากหลักสูตรออนไลน์กับอาจารย์อิสเรศแล้ว ดิฉันรู้สึกมั่นใจมากขึ้นในการนําความรู้ไปประยุกต์ใช้กับธุรกิจส่วนตัว "
+            " เข้าใจง่ายมากค่ะ สามารถนำความรู้ไปใช้ได้จริง ประยุกต์ใช้กับธุรกิจที่มี ทั่งการตลาด การคิดคอนเทนต์ที่ไม่ทางตัน สำหรับใครมองหาครอสเรียนที่จับมือทำ แนะนำเลยค่ะ "
     },
     {
-        name: "ธีรวัฒน์ พึ่งโพธิ์",
+        name: "คุณน้อย    ",
         // avatar: "https://randomuser.me/api/portraits/women/1.jpg",
-        profession: "วิศวกร",
+        profession: "Students",
         comment:
-            "ผมถูกใจวิธีการสอนของอาจารย์อิสเรศมาก เข้าใจง่าย ได้เนื้อหาครบถ้วนในเรื่องของฮวงจุ้ย ทําให้ชีวิตดีขึ้นเยอะ"
+            "มาเรียนแล้ว ชอบผูิสอนคะ สอนได้เข้าใจ และเป็นการลงมือทำไปพร้อมกัน ทำให้เรามีรายได้ระหว่างเรียน และพัฒนาตัวเองไปในตัว และสามารถสอบถามได้ตลอดเวลา"
     },
     {
-        name: "จิราภรณ์ โสพรรณ",
+        name: "คุณอ้อย  ",
         // avatar: "https://randomuser.me/api/portraits/men/2.jpg",
-        profession: "พนักงานออฟฟิศ   ",
+        profession: "Students        ",
         comment:
-            "หลังจากปรึกษาอาจารย์ ทําให้มองเห็นแนวทางในการแก้ปัญหาชีวิต และการทํางานได้ชัดเจนยิ่งขึ้น ขอบคุณมากค่ะ"
+            "เป็นครอสเรียนที่คุ้มค่ามากค่ะ ทั้งในแง่ของประสบการ์ณและมุมมองที่ได้รับจากผู้สอน ทำให้บ้างปัญหาที่เราเจอ มาเรียนแล้วปลดล็อก และไม่เสียเวลาลองผิดลองถูก นำจากประสบการณ์ที่ได้ในครอส และเพื่อนๆที่มาเรียน มาปรับใช้ได้ทันที"
     },
     {
-        name: "มาโนช วีระพงษ์",
+        name: "คุณบอล     ",
         // avatar: "https://randomuser.me/api/portraits/women/2.jpg",
-        profession: "เจ้าของธุรกิจ",
+        profession: "Students",
         comment:
-            "หลังจากที่ได้คําแนะนําจากอาจารย์  ทําให้ตัดสินใจลาออกจากงานเก่า แล้วมาเปิดกิจการเอง บอกเลยว่าชีวิตดีขึ้นเยอะแยะเลย",
+            "เป็นการย่อยบทสรุปของแต่ละด้านที่ใช้ได้จริง ให้เรียนและลงมือทำได้พร้อมกัน เรียนซ้ำได้ มี E-Book ให้ จะทั้งอ่าน หรือดูก็เข้าใจ และสามารถมีรายได้จากการเรียนได้ไปด้วยครับ",
     },
-    {
-        name: "ภคพร จันทรา",
-        // avatar: "https://randomuser.me/api/portraits/women/3.jpg",
-        profession: "ธุรกิจส่วนตัว",
-        comment:
-            "ได้ลองนําความรู้ที่ได้จากการเรียนออนไลน์ไปใช้จริง ปรากฏว่าช่วยให้ธุรกิจดีขึ้นอย่างเห็นได้ชัด ขอบคุณอาจารย์มากค่ะ",
-    },
-    {
-        name: "ธนา ทองพูน",
-        // avatar: "https://randomuser.me/api/portraits/women/4.jpg",
-        profession: "พนักงานบริษัท ",
-        comment:
-            "หลังจากที่ได้พูดคุยกับอาจารย์ มุมมองในการมองปัญหาต่างๆ ก็เปลี่ยนไป ทําให้จิตใจสงบและมีความหวังมากขึ้น",
-    },
-    {
-        name: "ณัฐวุฒิ สุทธิปรีชา",
-        // avatar: "https://randomuser.me/api/portraits/women/4.jpg",
-        profession: "นักศึกษา ",
-        comment:
-            "ผมแอบอคติคิดว่าโหราศาสตร์คงไม่ใช่วิทยาศาสตร์ แต่หลังฟังการบรรยายของอาจารย์แล้ว ทําให้เปลี่ยนความคิด มองเห็นคุณค่ามากขึ้น",
-    },
-    {
-        name: "พชรพรรณ เอี่ยมสะอาด",
-        // avatar: "https://randomuser.me/api/portraits/women/4.jpg",
-        profession: "แม่บ้าน ",
-        comment:
-            "หลังจากที่ได้รับคําแนะนําจากอาจารย์ในเรื่องของการตกแต่งบ้าน ทําให้บ้านน่าอยู่ และครอบครัวอบอุ่นมากขึ้น",
-    },
-    {
-        name: "ขวัญฤดี โพธาราม",
-        // avatar: "https://randomuser.me/api/portraits/women/4.jpg",
-        profession: "พนักงานบริษัท ",
-        comment:
-            "อาจารย์อธิบายเรื่องฮวงจุ้ยได้ชัดเจนมาก เข้าใจง่ายดี ไม่ซับซ้อนเหมือนที่อื่นๆ ชอบมากค่ะ ถ้ามีโอกาสจะกลับมาเรียนอีกแน่นอน",
-    },
-    {
-        name: "พีรวิชญ์ เดชะคําภู",
-        // avatar: "https://randomuser.me/api/portraits/women/4.jpg",
-        profession: "ธุรกิจออนไลน์   ",
-        comment:
-            "หลังจากที่ได้รับคําปรึกษาทําให้กล้าที่จะตัดสินใจลาออกจากงาน แล้วหันมาทําธุรกิจออนไลน์เอง รายได้ดีขึ้นมาก ขอบคุณอาจารย์จริงๆ",
-    },
-    {
-        name: "ณัฐนนท์ ศรีบุญเรือง",
-        // avatar: "https://randomuser.me/api/portraits/women/4.jpg",
-        profession: "พนักงานบริษัท   ",
-        comment:
-            "หลังจากที่เข้ารับการบรรยาย ได้อ่านหนังสือของอาจารย์แล้ว รู้สึกว่าชีวิตมีสีสัน และมีแรงบันดาลใจในการทํางานมากขึ้นเลยทีเดียว",
-    },
-    {
-        name: "Paul Wilson",
-        // avatar: "https://randomuser.me/api/portraits/women/4.jpg",
-        profession: "American Businessman   ",
-        comment:
-            "After taking online course from Master Essras, I gain very useful knowledge about Feng Shui which I can apply to improve my business. Thank you so much!",
-    },
-    {
-        name: " Sarah Lim",
-        // avatar: "https://randomuser.me/api/portraits/women/4.jpg",
-        profession: "Singaporean Officer    ",
-        comment:
-            "Master Essras explains astrology concepts very clearly and easy to understand. Now I understand more about zodiac compatibility which helps my relationship",
-    },
-    {
-        name: "Toshio Hayashi",
-        // avatar: "https://randomuser.me/api/portraits/women/4.jpg",
-        profession: " Japanese Officer   ",
-        comment:
-            "I  was impressed with Master Essras's lecture on TV program. He presents the content lively and entertaining way. I became his fan",
-    },
-    {
-        name: "Ayesha Begum",
-        // avatar: "https://randomuser.me/api/portraits/women/4.jpg",
-        profession: "Indian Housewife   ",
-        comment:
-            "Online consultation with Master Essras gives me new perspective to approach problems and set clear goals. This helps reduce my stress. Thank you, Ajarn! ",
-    },
-    {
-        name: "William Ng",
-        // avatar: "https://randomuser.me/api/portraits/women/4.jpg",
-        profession: "Chinese Entrepreneur   ",
-        comment:
-            "I love Master Essras's book about fortune telling. Very accurate and helpful prediction which gives me more confidence to start new business last year. I appreciate his knowledge.",
-    },
+ 
+   
     
 ];
 
@@ -159,7 +77,7 @@ const PeopleReview = () => {
             <div className="w-full bg-[var(--secondary-color)] p-10 pb-20">
                 <div className="w-full">
                     <p className="text-[#2a2a32] text-center font-bold text-[30px] mt-10" data-aos="fade-down" >What People Say</p>
-                    <p className="text-[#2a2a32] text-center text-sm mb-16" data-aos="fade-down" >Lorem ipsum dolor sit amet, consectetur.</p>
+                    <p className="text-[#2a2a32] text-center text-sm mb-16" data-aos="fade-down" >รีวิวจากนักเรียนบางส่วน</p>
                 </div>
                 <div className="w-full flex gap-3 justify-center" data-aos="fade-down" >
                     <div className="max-w-[90%] m-auto">

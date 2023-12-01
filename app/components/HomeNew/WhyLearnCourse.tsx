@@ -6,7 +6,7 @@ const item = [
     {
         title: ' 01. Learn',
         icon: '/online-learning.png',
-        message: 'สอนโดยผู้เชี่ยวชาย์ที่มีประสบการณ์ไม่ตลาดมากว่า 7 ปี',
+        message: 'สอนโดยผู้เชี่ยวชาย์ที่มีประสบการณ์มากกว่า 7 ปี',
     },
     {
         title: '02. Graduate',
@@ -16,7 +16,7 @@ const item = [
     {
         title: '03. Work',
         icon: '/computer.png',
-        message: 'เรียนเเล้วสามารถนำไปใช้เทรดจริงได้',
+        message: 'เรียนเเล้วสามารถนำไปใช้จริงได้',
     },
 ]
 

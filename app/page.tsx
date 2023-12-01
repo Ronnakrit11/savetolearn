@@ -3,18 +3,18 @@ import Home from "./components/HomeNew/Home";
 
 
 export const metadata = {
-  title: 'Learning-destiny เรียนดูดวง โหราศาสตร์',
-  description: 'เรียนออนไลน์ e-learning ebook โหราศาสตร์ ดูดวง ฮวงจุ้ย และจิตวิทยา สำหรับการพัฒนาชีวิตให้ดีขึ้น',
-  keywords : 'โหราศาสตร์ , ดูดวง , ดูฮวงจุ้ย, จิตวิทยา สำหรับการพัฒนาชีวิตให้ดีขึ้น',
+  title: 'Save2learn เเหล่งรวบรวมความรู้คนคนยุคใหม่',
+  description: 'สถาบันการสอนคอร์สการตลาดออนไลน์ การลงทุน เทคโนโลยีเอไอ เเละ อสังหาริมทรัพย์​  ',
+  keywords : 'คอร์สการตลาดออนไลน์ , การลงทุน , เทคโนโลยีเอไอ, อสังหาริมทรัพย์​',
   openGraph: {
-    title: 'Learning-destiny เรียนดูดวง โหราศาสตร์',
-    description: 'เรียนออนไลน์ e-learning ebook โหราศาสตร์ ดูดวง ฮวงจุ้ย และจิตวิทยา สำหรับการพัฒนาชีวิตให้ดีขึ้น',
+    title: 'Save2learn เเหล่งรวบรวมความรู้คนคนยุคใหม่',
+    description: 'สถาบันการสอนเเละเเหล่งการเรียนรู้คอร์สการตลาดออนไลน์ การลงทุน เทคโนโลยีเอไอ เเละ อสังหาริมทรัพย์​ ',
     url: 'https://www.learning-destiny.com',
     
     siteName: 'savetolearn',
     images: [
       {
-        url: 'https://png.pngtree.com/png-clipart/20210803/ourlarge/pngtree-abstract-colorful-astrology-starry-background-png-image_3768710.jpg',
+        url: 'https://res.cloudinary.com/dtmtluhfw/image/upload/v1701430702/w7szxskyx9ctxnijhjio.jpg',
         width: 800,
         height: 600,
       },
@@ -24,9 +24,9 @@ export const metadata = {
   },
   twitter: {
     card: 'summary',
-    title: 'Learning-destiny เรียนดูดวง โหราศาสตร์',
-    description: 'เรียนออนไลน์ e-learning ebook โหราศาสตร์ ดูดวง ฮวงจุ้ย และจิตวิทยา สำหรับการพัฒนาชีวิตให้ดีขึ้น',
-    images: ['https://png.pngtree.com/png-clipart/20210803/ourlarge/pngtree-abstract-colorful-astrology-starry-background-png-image_3768710.jpg'],
+    title: 'Save2learn เเหล่งรวบรวมความรู้คนคนยุคใหม่',
+    description: 'เเหล่งการเรียนรู้คอร์สการตลาดออนไลน์ การลงทุน เทคโนโลยีเอไอ เเละ อสังหาริมทรัพย์',
+    images: ['https://res.cloudinary.com/dtmtluhfw/image/upload/v1701430702/w7szxskyx9ctxnijhjio.jpg'],
   },
 }
 
