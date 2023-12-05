@@ -27,9 +27,9 @@ const EbookCard: FC<Props> = ({ item, isProfile }) => {
         onClick={handleClick}
         className="w-full cursor-pointer dark:bg-slate-500 dark:bg-opacity-20 backdrop-blur border dark:border-[#ffffff1d] border-[#00000015] dark:shadow-[bg-slate-700] rounded-lg dark:shadow-inner"
       >
-        {item.thumbnail.url && (
+        {item?.thumbnail?.url && (
           <Image
-            src={item.thumbnail.url}
+            src={item?.thumbnail?.url}
             width={500}
             height={300}
             objectFit="contain"
