@@ -3,11 +3,12 @@ import React from 'react'
 import Slider from "react-slick";
 import Image from 'next/image';
 
+
 const settings = {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 2,
     slidesToScroll: 1,
     arrows: false,
     // className: 'notes-slider',
@@ -17,7 +18,7 @@ const settings = {
         {
             breakpoint: 450,
             settings: {
-                slidesToShow: 2,
+                slidesToShow: 1,
             },
         },
         {
@@ -34,6 +35,7 @@ const settings = {
         },
     ]
 };
+
 
 const TopCategory = ({ categoty = [] }) => {
     return (
