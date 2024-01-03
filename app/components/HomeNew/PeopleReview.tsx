@@ -76,7 +76,7 @@ const PeopleReview = () => {
         <>
             <div className="w-full bg-[var(--secondary-color)] p-10 pb-20">
                 <div className="w-full">
-                    <p className="text-[#2a2a32] text-center font-bold text-[30px] mt-10" data-aos="fade-down" >What People Say</p>
+                    <p className="text-[#2a2a32] text-center font-bold text-[30px] mt-10" data-aos="fade-down" >What people say “IDEAINSIDE”</p>
                     <p className="text-[#2a2a32] text-center text-sm mb-16 font-Anuphan" data-aos="fade-down" >รีวิวจากนักเรียนบางส่วน</p>
                 </div>
                 <div className="w-full flex gap-3 justify-center" data-aos="fade-down" >
