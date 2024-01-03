@@ -4,9 +4,36 @@ import React from 'react'
 
 type Props = {}
 
+const linkSocial = [
+  {
+    label: 'Youtube',
+    url: 'https://www.youtube.com/@SAVe2PLAY'
+  },
+  {
+    label: 'Facebook',
+    url: 'https://www.facebook.com/SAVe2PLAY'
+  },
+  {
+    label: 'Line',
+    url: 'https://lin.ee/76UHmsk'
+  },
+  {
+    label: 'Tiktok',
+    url: 'https://www.tiktok.com/@save2play'
+  },
+  {
+    label: 'Instagram',
+    url: 'https://instagram.com/save2play.ig'
+  },
+  {
+    label: 'SAVE2PAY',
+    url: 'https://www.save2pay.com/web/index'
+  },
+]
+
 const Footer = (props: Props) => {
   return (
-    
+
     <footer className='navbar-color'>
       <div className="border border-[#0000000e]  " />
       <br />
@@ -60,38 +87,41 @@ const Footer = (props: Props) => {
                   My Account
                 </Link>
               </li>
-         
+
             </ul>
           </div>
           <div className="space-y-3">
             <h3 className="text-[20px] font-[600] text-black">Social Links</h3>
             <ul className="space-y-4">
-              <li>
-              
-              </li>
-              <li>
-                <Link
-                  href="https://www.facebook.com/"
-                  className="text-base text-black"
-                >
-                  Facebook
-                </Link>
-              </li>
-           
+              {
+                linkSocial.map(ele => {
+                  return <li key={ele.label}>
+                    <a
+                      target="_blank"
+                      href={ele.url}
+                      className="text-base text-black"
+                    >
+                      {ele.label}
+                    </a>
+                  </li>
+                })
+              }
+
+
             </ul>
           </div>
           <div>
             <h3 className="text-[20px] font-[600] text-black pb-3">Contact Info</h3>
             <p className="text-base text-black pb-2">
-            Tel. : 065-445-4142
+              Tel. : 065-445-4142
             </p>
-           
+
             <p className="text-base text-black pb-2">
-            Email : SAVE2PLAYS@GMAIL.COM
+              Email : SAVE2PLAYS@GMAIL.COM
             </p>
-         
+
             <p className="text-base text-black  pb-2">
-            Line OA : @SAVe2PLAY
+              Line OA : @SAVe2PLAY
             </p>
             <div className='bg-white max-w-[160px] p-2'>
               <Image

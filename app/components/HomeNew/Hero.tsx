@@ -34,10 +34,10 @@ function Hero({ setOpen, banner }: any) {
                 </div>
 
 
-                <div data-aos="fade-left" data-aos-delay="500" className="hidden 1000px:w-[40%] md:flex 1000px:min-h-[60vh] items-center justify-end pt-[70px] 1000px:pt-[0] z-10 relative">
+                <div data-aos="fade-left" data-aos-delay="500" className="hidden 1000px:w-[40%] md:block 1000px:min-h-[60vh] items-center justify-end pt-[70px] 1000px:pt-[0] z-10 relative">
                    
                     <Image
-                        src={banner?.image?.url || '/kchgd5cp3jqkvg7zzdin.webp'}
+                        src={banner?.image?.url || '/IDEAINSIDE.png'}
                         width={400}
                         height={400}
                         alt=""

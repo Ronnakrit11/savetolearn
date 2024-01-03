@@ -68,7 +68,7 @@ function CategoriesItem({ title = '' }) {
                         className="object-contain "
                     />
                 </div>
-                <div className="text-black text-[16px] font-Poppins font-bold mt-[13px]">{title}</div>
+                <div className="text-black text-[16px] font-Poppins font-bold mt-[13px] font-Anuphan">{title}</div>
                 {/* <div className=" text-xs mt-2 text-[#4f547b] font-normal">1 Course</div> */}
             </div>
         </>

@@ -100,13 +100,13 @@ const Header: FC<Props> = ({ activeItem, setOpen, route, open, setRoute }) => {
                       className={`text-[18px] md:text-[25px] flex items-center font-Poppins font-[500] text-black dark:text-white`}
                     >
                       <Image
-                        src={'/bird.png'}
-                        width={100}
-                        height={100}
+                        src={'/logo2.png'}
+                        width={50}
+                        height={50}
                         alt=""
                       />
                       <span className="text-black"> 
-                      Save2learn
+                      IDEAINSIDE
                       </span>
                     </Link>
                   </div>

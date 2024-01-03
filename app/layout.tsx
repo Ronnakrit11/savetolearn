@@ -27,6 +27,12 @@ const josefin = Josefin_Sans({
   variable: "--font-Josefin",
 });
 
+const AnuphanFont = Anuphan({
+  subsets: ['latin'],
+  weight: ['100' , '200' , '300' , '400' , '500' , '600' , '700' ],
+  variable: "--font-Anuphan",
+});
+
 export default function RootLayout({
   children,
 }: {
@@ -35,7 +41,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning={true}>
       <body
-        className={`${poppins.variable} ${josefin.variable} !bg-white bg-no-repeat duration-300`}
+        className={`${poppins.variable} ${josefin.variable} ${AnuphanFont.variable} !bg-white bg-no-repeat duration-300`}
       >
         <Providers>
           <SessionProvider>
