@@ -60,7 +60,7 @@ function Home({ webInfo }: any) {
             />
             <PeopleReview />
             <Courses />
-            <Ebooks/>
+            {/* <Ebooks/> */}
             <WhyLearnCourse />
             <TrustBy />
             <Footer />

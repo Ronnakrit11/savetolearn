@@ -55,7 +55,7 @@ const Page = (props: Props) => {
             setOpen={setOpen}
             activeItem={1}
           />
-          <div className="w-[95%] 800px:w-[85%] m-auto min-h-[70vh]">
+          <div className="w-[95%] 800px:w-[85%] m-auto min-h-[70vh] font-Anuphan">
             <Heading
               title={"All courses - Elearning"}
               description={"Elearning is a programming community."}
@@ -68,7 +68,7 @@ const Page = (props: Props) => {
               <div
                 className={`h-[35px] ${
                   category === "All" ? "bg-[var(--primary-color)]" : "bg-[var(--secondary-color)]"
-                } m-3 px-3 rounded-[30px] flex items-center justify-center font-Poppins cursor-pointer`}
+                } m-3 px-3 rounded-[30px] flex items-center justify-center cursor-pointer`}
                 onClick={() => setCategory("All")}
               >
                 All
@@ -81,7 +81,7 @@ const Page = (props: Props) => {
                         category === item.title
                           ? "bg-[var(--primary-color)]"
                           : "bg-[var(--secondary-color)]"
-                      } m-3 px-3 rounded-[30px] flex items-center justify-center font-Poppins cursor-pointer`}
+                      } m-3 px-3 rounded-[30px] flex items-center justify-center cursor-pointer`}
                       onClick={() => setCategory(item.title)}
                     >
                       {item.title}

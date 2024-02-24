@@ -3,18 +3,18 @@ import Home from "./components/HomeNew/Home";
 
 
 export const metadata = {
-  title: 'Save2learn เเหล่งรวบรวมความรู้คนคนยุคใหม่',
+  title: 'IdeaInside เเหล่งรวบรวมความรู้คนคนยุคใหม่',
   description: 'สถาบันการสอนคอร์สการตลาดออนไลน์ การลงทุน เทคโนโลยีเอไอ เเละ อสังหาริมทรัพย์​  ',
   keywords : 'คอร์สการตลาดออนไลน์ , การลงทุน , เทคโนโลยีเอไอ, อสังหาริมทรัพย์​',
   openGraph: {
-    title: 'Save2learn เเหล่งรวบรวมความรู้คนคนยุคใหม่',
+    title: 'IdeaInside เเหล่งรวบรวมความรู้คนคนยุคใหม่',
     description: 'สถาบันการสอนเเละเเหล่งการเรียนรู้คอร์สการตลาดออนไลน์ การลงทุน เทคโนโลยีเอไอ เเละ อสังหาริมทรัพย์​ ',
     url: 'https://www.learning-destiny.com',
     
-    siteName: 'savetolearn',
+    siteName: 'IdeaInside',
     images: [
       {
-        url: 'https://res.cloudinary.com/dtmtluhfw/image/upload/v1701430702/w7szxskyx9ctxnijhjio.jpg',
+        url: '/Logo-new.png',
         width: 800,
         height: 600,
       },
@@ -24,9 +24,9 @@ export const metadata = {
   },
   twitter: {
     card: 'summary',
-    title: 'Save2learn เเหล่งรวบรวมความรู้คนคนยุคใหม่',
+    title: 'IdeaInside เเหล่งรวบรวมความรู้คนคนยุคใหม่',
     description: 'เเหล่งการเรียนรู้คอร์สการตลาดออนไลน์ การลงทุน เทคโนโลยีเอไอ เเละ อสังหาริมทรัพย์',
-    images: ['https://res.cloudinary.com/dtmtluhfw/image/upload/v1701430702/w7szxskyx9ctxnijhjio.jpg'],
+    images: ['/Logo-new.png'],
   },
 }
 

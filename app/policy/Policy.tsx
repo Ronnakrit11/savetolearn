@@ -11,7 +11,7 @@ const Policy = (props: Props) => {
           "w-[95%] 800px:w-[92%] m-auto py-2 text-black dark:text-white px-3 font-Anuphan"
         }
       >
-        <h1 className={`${styles.title} !text-start pt-2 font-Anuphan`}>
+        <h1 className={`text-[32px] !text-start pt-2 font-Anuphan`}>
           นโยบายความเป็นส่วนตัวสําหรับเว็บไซต์ 
         </h1>
         <ul style={{ listStyle: "unset", marginLeft: "15px" }}>
