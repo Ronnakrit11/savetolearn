@@ -9,12 +9,12 @@ export const metadata = {
   openGraph: {
     title: 'IdeaInside เเหล่งรวบรวมความรู้คนคนยุคใหม่',
     description: 'สถาบันการสอนเเละเเหล่งการเรียนรู้คอร์สการตลาดออนไลน์ การลงทุน เทคโนโลยีเอไอ เเละ อสังหาริมทรัพย์​ ',
-    url: 'https://www.learning-destiny.com',
+    url: 'https://www.ideainside.online',
     
     siteName: 'IdeaInside',
     images: [
       {
-        url: '/Logo-new.png',
+        url: 'https://res.cloudinary.com/dugevwb3g/image/upload/v1708788908/Logo-new_ssalc9.png',
         width: 800,
         height: 600,
       },
@@ -26,7 +26,7 @@ export const metadata = {
     card: 'summary',
     title: 'IdeaInside เเหล่งรวบรวมความรู้คนคนยุคใหม่',
     description: 'เเหล่งการเรียนรู้คอร์สการตลาดออนไลน์ การลงทุน เทคโนโลยีเอไอ เเละ อสังหาริมทรัพย์',
-    images: ['/Logo-new.png'],
+    images: ['https://res.cloudinary.com/dugevwb3g/image/upload/v1708788908/Logo-new_ssalc9.png'],
   },
 }
 
